@@ -1,0 +1,8 @@
+git clone https://github.com/tulsisaun/eduIntel.git
+cd eduIntel
+git checkout Tanisha
+
+
+git add .
+git commit -m "Update from Tanisha"
+git push origin Tanisha
