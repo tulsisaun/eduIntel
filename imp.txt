@@ -1,10 +1,17 @@
-echo "# eduIntel" >> README.md
+# Initialize Repo
 git init
-git add README.md
+echo "# eduIntel" >> README.md
+git add .
 git commit -m "first commit"
-git branch -M main
+# Create Rudraksh Branch
+git branch -M Rudraksh
+# Create Tanisha Branch
+git checkout -b Tanisha
+git checkout Rudraksh  # Switch back to Rudraksh initially
+# Connect to GitHub
 git remote add origin https://github.com/tulsisaun/eduIntel.git
-git push -u origin main
-
+# Push Branches
+git push -u origin Rudraksh
+git push origin Tanisha
 
 pushing code to github from start
